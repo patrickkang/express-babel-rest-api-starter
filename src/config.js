@@ -10,12 +10,12 @@ const config = convict({
   },
   port: {
     doc: 'The port to bind',
-    format: "port",
+    format: 'port',
     default: 3000,
-    env: "PORT",
+    env: 'PORT',
   },
 });
 
-config.validate({allowed: 'strict'});
+config.validate({ allowed: 'strict' });
 
 export default config.getProperties();
