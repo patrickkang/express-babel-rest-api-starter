@@ -4,8 +4,8 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "lint": "eslint ./src/**/*.js",
-    "lint:fix": "eslint --fix ./src/**/*.js",
+    "lint": "eslint ./src",
+    "lint:fix": "eslint --fix ./src",
     "test": "cross-env NODE_ENV=test nyc --reporter=html --reporter=text ./node_modules/.bin/mocha --require babel-register --recursive ./src/tests",
     "test:watch": "yarn test --watch",
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
