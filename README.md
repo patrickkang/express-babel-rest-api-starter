@@ -4,5 +4,21 @@
 
 
 WIP
-## Getting Started
-1. Install [yarn](https://yarnpkg.com/lang/en/docs/install/)
+
+## Features
+|Feature|Summary|
+|:---:|---|
+|express|For REST api|
+|yarn|Yarn over npm|
+|lint|eslint|
+|editorconfig|maintain consistent coding styles between different editors|
+
+### Install dependencies
+```
+yarn install
+```
+
+### Lint
+```
+yarn lint
+```
